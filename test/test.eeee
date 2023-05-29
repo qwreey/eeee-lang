@@ -1,0 +1,10 @@
+func loop {
+    set num = arg + 2
+    print num
+    _ = loop(num)
+}
+
+func main {
+    set num = 0
+    _ = loop(num)
+}

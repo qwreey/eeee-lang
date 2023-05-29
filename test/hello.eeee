@@ -1,0 +1,6 @@
+
+func main {
+  set hello = "Hello world"
+  print hello
+}
+
